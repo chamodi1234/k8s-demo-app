@@ -8,7 +8,7 @@ const MonitoringLiveDemo = () => {
       {/* Video Section */}
       <div className="bg-gray-800 p-4 rounded-md">
         <video controls className="w-full rounded-md">
-          <source src="src/assets/monitoring-demo.mp4" type="video/mp4" />
+          <source src="src/assets/configuration.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
       </div>
