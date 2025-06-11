@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Sidebar from '../components/Sidebar';
 import LoadBalancingLiveDemo from '../components/LoadBalancingLiveDemo'; // Import the live demo component
-
+import LoadBalancerDemo from '../components/LoadBalancerDemo';
 // Reusable Gradient Card Component
 const GradientCard = ({ title, children }) => (
   <div className="p-[2px] bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 rounded-xl shadow-lg mb-6">
@@ -43,6 +43,8 @@ export default function LoadBalancing() {
 
           {/* Live Demo Section */}
           <LoadBalancingLiveDemo />
+
+          <LoadBalancerDemo />
         </main>
         <Footer />
       </div>
